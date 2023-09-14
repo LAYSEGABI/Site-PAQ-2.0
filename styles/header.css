@@ -1,0 +1,75 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5em 4em;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.logo {
+    width: 5em;
+}
+
+.header-redes {
+    display: flex;
+    gap: 20px;
+}
+
+.header-redes a img {
+    width: 2.6em;
+}
+
+.header-doe {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    background-color: var(--cor-destaque);
+    padding: .7em 1em;
+    border-radius: 4px;
+    transition: .5s;
+}
+
+.header-doe:hover {
+    background-color: rgb(25, 122, 212);
+    box-shadow: 0px 18px 39px 0px rgba(87, 121, 161, 0.377);
+}
+
+nav a {
+    position: relative;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    transition: 0.5s;
+    padding-bottom: 0.3em;
+}
+
+nav a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--cor-destaque);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+}
+
+nav a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}

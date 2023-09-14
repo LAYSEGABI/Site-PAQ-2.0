@@ -1,0 +1,50 @@
+.banner {
+    height: 102vh;
+    background: url("../img/fundo-banner\ 2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -100px;
+    background-position: center;
+    padding-top: 100px;
+    display: flex;
+    align-items: left;
+    padding-left: 5em;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.banner h1 {
+    font-size: 3.5em;
+    width: 50%;
+}
+
+h1 span {
+    background: var(--linear-ciano-azul, linear-gradient(270deg, #07B5EC 54.64%, rgba(32, 148, 255, 0.98) 102.58%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.banner h4 {
+    font-weight: 300;
+    width: 30%;
+}
+
+.banner a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    background-color: var(--cor-destaque);
+    padding: .7em 1em;
+    border-radius:4px;
+    transition: .5s;
+    width: 10%;
+    text-align: center;
+}
+
+.banner a:hover {
+    background-color: rgb(0, 81, 255);
+    box-shadow: 0px 12px 29px 0px rgba(87, 121, 161, 0.24);
+}

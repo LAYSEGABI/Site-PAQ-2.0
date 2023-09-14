@@ -1,0 +1,55 @@
+.impactos {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 0;
+    gap: 10px;
+}
+
+.impactos-container {
+    display: flex;
+    margin-top: 3em;
+    background-color: rgba(255, 255, 255, 0.048);
+    justify-content: space-between;
+    padding: 1.8em 3em;
+    width: 60%;
+    height: 100%;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 8px 9px 20px 0px rgba(0, 0, 0, 0.20);
+}
+
+.impactos-container-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    gap: 5px;
+}
+
+.impactos-container-item img {
+    width: 3em;
+}
+
+.impactos-container-item h3 {
+    color: var(--cor-destaque);
+    font-size: 1.8em;
+}
+
+.impactos-elementos-back {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.impactos-img {
+    position: absolute;
+    left: 0;
+}
+
+.impactos-img-2 {
+    position: absolute;
+    right: 0;
+}

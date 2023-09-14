@@ -1,0 +1,79 @@
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-90%);
+    }
+}
+
+.apoiadores {
+    margin: 5em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    overflow: hidden;
+}
+
+.apoiadores-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.logos {
+    overflow: hidden;
+    padding: 10px 0;
+    background: rgba(255, 255, 255, 0.151);
+    display: flex;
+    white-space: nowrap;
+    position: relative;
+}
+
+.logos:before,
+.logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(4, 13, 39));
+}
+
+.logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(4, 8, 46));
+}
+
+.logos:hover .logos-slide {
+    animation-play-state: paused;
+}
+
+.logos-slide {
+    display: flex;
+    animation: 15s slide infinite linear;
+}
+
+.logos-slide div {
+    background: var(--linear-apoiadoress, linear-gradient(137deg, rgba(194, 193, 252, 0.85) 1.98%, rgba(255, 255, 255, 0.85) 77.68%));
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.50);;
+    padding: .3em;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.logos-slide img {
+    width: auto;
+    margin: 0 20px;
+}

@@ -1,0 +1,52 @@
+/* Fonte importada */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700&display=swap');
+
+/* Links arquivos css */
+@import url('styles/header.css');
+@import url('styles/banner.css');
+@import url('styles/impactos.css');
+@import url('styles/sobre-nos.css');
+@import url('styles/apoiadores.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-destaque: #0e91e8;
+    --preto-padrao: #04030C;
+    --linear-azul-ciano: linear-gradient(270deg, #07B5EC 54.64%, rgba(32, 148, 255, 0.98) 102.58%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Archivo', sans-serif;
+    color: white;
+    height: 5000px;
+    background: url("img/luz\ back.png");
+    background-color: #04030C;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* Scrollbar personalizada */
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--preto-padrao);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--cor-destaque);
+    border-radius: 5px;
+}
+
