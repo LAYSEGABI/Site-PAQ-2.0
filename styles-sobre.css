@@ -1,0 +1,14 @@
+@import url("styles/sobre-nos/header.css");
+@import url("styles/sobre-nos/nossa-historia.css");
+@import url("styles/sobre-nos/comunidade-aprendizado.css");
+@import url("styles/sobre-nos/unidades.css");
+@import url("styles/sobre-nos/equipe.css");
+
+body {
+    font-family: 'Archivo', sans-serif;
+    color: white; 
+    background: url("img/sobre-nos/luz\ back\ \(2\).png");
+    background-color: #04030C;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

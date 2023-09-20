@@ -1,0 +1,53 @@
+.equipe {
+    background: url("../../img/sobre-nos/seta-direita\ 1\ \(1\).png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    align-items: center;
+    padding: 5em 7em;
+    gap: 10px;
+}
+
+.equipe hr {
+    width: 60px;
+    border: 1px solid var(--cor-destaque);
+}
+
+.equipe-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 3em;
+}
+
+.equipe-container-item {
+    border: 1px solid var(--cor-destaque);
+    padding: 1.2em;
+    border-radius: 10px;
+    gap: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.ted, .yo {
+    position: relative;
+    top: -2em;
+}
+
+.equipe-container-item a {
+    background: rgba(29, 29, 87, 0.274);
+    padding: .5em;
+    border: 1px solid blue;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(204, 206, 221);
+    transition: .5s;
+    font-weight: bolder;
+}
+
+.equipe-container-item a:hover {
+    color: var(--cor-destaque);
+    background-color: rgba(22, 13, 65, 0.384);
+}

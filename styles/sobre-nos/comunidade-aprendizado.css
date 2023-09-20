@@ -1,0 +1,53 @@
+.comunidade-aprendizagem {
+    margin: 6em 7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -3em;
+}
+
+.comunidade-aprendizagem-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 50px;
+    margin-top: 3em;
+}
+
+.comunidade-container {
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.comunidade-container h3 {
+    color: var(--cor-destaque);
+}
+
+.img-comunidade-hst {
+    width: 50%;
+}
+
+.comunidade-aprendizagem-container img {
+    width: 100%;
+}
+
+.comunidade-aprendizagem a {
+    text-decoration: none;
+    color: rgb(10, 9, 34);
+    font-weight: bolder;
+    background-color: var(--cor-destaque);
+    padding: .7em 4em;
+    border-radius:4px;
+    width: auto;
+    text-align: center;
+    margin-top: 5em;
+    transition: .5s;
+}
+
+.comunidade-aprendizagem a:hover {
+    color: white;
+    background-color: rgb(0, 81, 255);
+    box-shadow: 0px 18px 39px 0px rgba(87, 121, 161, 0.377);
+}
