@@ -33,3 +33,26 @@
 }
 
 
+@media (max-width: 800px) {
+    .frentes-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .frentes-item {
+        width: 40%;
+        align-items: center;
+    }
+}
+
+@media (max-width: 550px) {
+    .frentes {
+        margin: 4em 2em;
+    }
+
+    .frentes-item {
+        width: 40%;
+        align-items: center;
+    }
+}
