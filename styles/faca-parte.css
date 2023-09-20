@@ -82,3 +82,43 @@
 .faca-parte-item a:hover {
     background: rgba(7, 2, 27, 0.452);
 }
+
+
+
+@media (max-width: 1250px) {
+    .faca-parte-item a {
+        width: auto;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .faca-parte {
+        flex-direction: column-reverse;
+        margin: 2em;
+    }
+
+    .faca-parte-descricao {
+        width: 80%;
+        align-items: center;
+    }
+
+    .faca-parte-container {
+        width: 70%;
+    }
+}
+
+@media (max-width: 900px) {
+    .faca-parte {
+        flex-direction: column-reverse;
+        margin: 2em;
+    }
+
+    .faca-parte-descricao {
+        width: 100%;
+    }
+
+    .faca-parte-container {
+        width: 100%;
+    }
+}
