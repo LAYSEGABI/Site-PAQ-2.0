@@ -59,3 +59,35 @@
     box-shadow: 0px 12px 23px 0px rgba(87, 121, 161, 0.199);
 }
 
+
+
+@media (max-width: 900px) {
+    .contato {
+        padding: 2em;
+    }
+    .contato-container form {
+        width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+    .contato {
+        padding: 3em 1em;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+    .contato img {
+        width: 70%;
+    }
+
+    .contato-container {
+        width: 80%;
+    }
+    .contato-container form {
+        width: 100%;
+    }
+}
+
+
+
