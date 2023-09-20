@@ -1,0 +1,35 @@
+.frentes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 7em;
+    gap: 10px;
+}
+
+.frentes hr {
+    width: 60px;
+    border: 1px solid var(--cor-destaque);
+}
+
+.frentes-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 3em;
+}
+
+.frentes-item {
+    padding: .5em;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.frentes-item img {
+    width: 34px;
+}
+
+.frentes-item-tempo {
+    color: rgba(255, 255, 255, 0.582);
+}
+
+

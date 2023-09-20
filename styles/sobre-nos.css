@@ -1,24 +1,57 @@
 .sobre-nos {
     display: flex;
-    padding: 1em 7em;
+    padding: 3em ;
     gap: 100px;
-    margin-top: 4em;
+    margin: 4em 7em;
     align-items: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.sobre-nos::before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "";
+    position: absolute;
+    background: linear-gradient(270deg, #07B5EC 54.64%, rgba(16, 0, 247, 0.98) 102.58%);
+    width: 20%;
+    height: 500%;
+
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.sobre-nos::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(4, 2, 24);
+    inset: 4px;
+    border-radius: inherit;
 }
 
 .sobre-nos-container {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    z-index: 999;
 }
+
+.sobre-nos-video {
+    z-index: 999;
+}
+
 
 .sobre-nos-video iframe {
     border-radius: 10px;
-    z-index: 10;
-    border-top: 1px solid var(--cor-destaque);
-    border-left: 1px solid var(--cor-destaque);
-    border-bottom: 5px solid var(--cor-destaque);
-    border-right: 5px solid var(--cor-destaque);
 }
 
 .sobre-nos-container a {
@@ -28,7 +61,7 @@
     background-color: var(--cor-destaque);
     padding: .7em 1em;
     border-radius:4px;
-    width: 30%;
+    width: 40%;
     text-align: center;
     margin-top: 2em;
     transition: .5s;

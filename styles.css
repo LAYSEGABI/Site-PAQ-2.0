@@ -7,6 +7,10 @@
 @import url('styles/impactos.css');
 @import url('styles/sobre-nos.css');
 @import url('styles/apoiadores.css');
+@import url('styles/apoie-paq.css');
+@import url('styles/frentes.css');
+@import url('styles/faca-parte.css');
+@import url('styles/footer.css');
 
 * {
     margin: 0;
@@ -27,7 +31,6 @@ html {
 body {
     font-family: 'Archivo', sans-serif;
     color: white;
-    height: 5000px;
     background: url("img/luz\ back.png");
     background-color: #04030C;
     background-repeat: no-repeat;

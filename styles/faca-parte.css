@@ -1,0 +1,82 @@
+.faca-parte {
+    display: flex;
+    margin: 4em 6em;
+    gap: 50px;
+    align-items: center;
+}
+
+.faca-parte-descricao {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faca-parte-descricao img {
+    width: 90%;
+    margin: 1.5em 0;
+}
+
+.faca-parte-descricao a {
+    text-decoration: none;
+    color: rgb(10, 9, 34);
+    font-weight: bolder;
+    background-color: var(--cor-destaque);
+    padding: .7em 1em;
+    border-radius:4px;
+    width: 35%;
+    text-align: center;
+    margin-top: 2em;
+    transition: .5s;
+}
+
+.faca-parte-descricao a:hover {
+    color: white;
+    background-color: rgb(0, 81, 255);
+    box-shadow: 0px 18px 39px 0px rgba(87, 121, 161, 0.377);
+}
+
+.faca-parte-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+}
+
+.container-itens {
+    display: flex;
+    gap: 30px;
+}
+
+.faca-parte-item {
+    background: #797d810c;
+    box-shadow: 3px 5px 16px 0px rgba(0, 0, 0, 0.40);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 1em;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.faca-parte-item h3 {
+    color: var(--cor-destaque);
+    font-size: 1.4em;
+}
+
+.faca-parte-item a {
+    background: rgba(169, 168, 173, 0.075);
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid var(--cor-destaque);
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: .6em;
+    transition: .5s;
+}
+
+.faca-parte-item a:hover {
+    background: rgba(7, 2, 27, 0.452);
+}
