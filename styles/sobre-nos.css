@@ -1,6 +1,6 @@
 .sobre-nos {
     display: flex;
-    padding: 3em ;
+    padding: 3em;
     gap: 100px;
     margin: 4em 7em;
     align-items: center;
@@ -60,15 +60,83 @@
     font-weight: bolder;
     background-color: var(--cor-destaque);
     padding: .7em 1em;
-    border-radius:4px;
+    border-radius: 4px;
     width: 40%;
     text-align: center;
     margin-top: 2em;
     transition: .5s;
+    white-space: nowrap;
 }
 
 .sobre-nos-container a:hover {
     color: white;
     background-color: rgb(0, 81, 255);
     box-shadow: 0px 18px 39px 0px rgba(87, 121, 161, 0.377);
+}
+
+
+@media (max-width: 1230px) {
+    .sobre-nos {
+        gap: 30px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .sobre-nos {
+        flex-direction: column;
+    }
+
+    .sobre-nos-container {
+        text-align: center;
+    }
+
+    .sobre-nos-container a {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 820px) {
+    .sobre-nos {
+        margin: 4em;
+    }
+
+    .sobre-nos-video iframe {
+        width: 400px;
+        height: 220px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .sobre-nos {
+        margin: 4em 2em;
+        padding: 1em;
+    }
+
+    .sobre-nos-video iframe {
+        width: 280px;
+        height: 150px;
+    }
+
+    .sobre-nos-container a {
+        width: 60%;
+    }
+}
+
+@media (max-width: 380px) {
+    .sobre-nos {
+        padding: 2em 1em;
+    }
+
+   
+    .sobre-nos-video iframe {
+        width: 220px;
+        height: 117px;
+    }
+
 }
