@@ -21,6 +21,12 @@
     box-shadow: 8px 9px 20px 0px rgba(0, 0, 0, 0.20);
 }
 
+.impactos-itens {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
 .impactos-container-item {
     display: flex;
     flex-direction: column;
@@ -52,4 +58,36 @@
 .impactos-img-2 {
     position: absolute;
     right: 0;
+}
+
+
+
+@media (max-width: 850px) {
+    .impactos {
+        padding: 1.5em ;
+    }
+    .impactos-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .impactos-img, .impactos-img-2 {
+        width: 6em;
+    }
+}
+
+
+@media (max-width: 550px) {
+
+    .impactos-container {
+        width: 80%;
+        padding: 1em;
+    }
+   .impactos-container-item h3 {
+    font-size: 1.5em;
+   }
+
+   .impactos-img, .impactos-img-2 {
+    display: none;
+}
 }
