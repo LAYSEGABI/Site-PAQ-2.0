@@ -10,6 +10,7 @@
 @import url('styles/apoie-paq.css');
 @import url('styles/frentes.css');
 @import url('styles/faca-parte.css');
+@import url('styles/contato.css');
 @import url('styles/footer.css');
 
 * {
@@ -30,7 +31,7 @@ html {
 
 body {
     font-family: 'Archivo', sans-serif;
-    color: white;
+    color: white; 
     background: url("img/luz\ back.png");
     background-color: #04030C;
     background-repeat: no-repeat;

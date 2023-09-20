@@ -73,3 +73,45 @@ nav a:hover:before {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
+
+.mobile {
+    display: none;
+}
+
+
+@media (max-width: 1080px) {
+    .logo {
+        width: 4em;
+    }
+
+    #frentes, #empresas {
+        display: none;
+    }
+}
+
+@media (max-width: 780px) {
+
+    #insta {
+        display: none;
+    }
+}
+
+@media (max-width: 690px) {
+    header {
+        padding: 1.4em;
+    }
+
+    #historia, #linkedin {
+        display: none;
+    }
+}
+
+@media (max-width: 580px) {
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+}

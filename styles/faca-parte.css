@@ -1,6 +1,6 @@
 .faca-parte {
     display: flex;
-    margin: 4em 6em;
+    margin: 7em;
     gap: 50px;
     align-items: center;
 }
@@ -56,6 +56,7 @@
     text-align: left;
     padding: 1em;
     gap: 20px;
+    width: 50%;
     border-radius: 10px;
 }
 
@@ -74,6 +75,7 @@
     color: whitesmoke;
     font-weight: bold;
     padding: .6em;
+    white-space: nowrap;
     transition: .5s;
 }
 

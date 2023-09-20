@@ -1,0 +1,61 @@
+.contato {
+    background: url("../img/fundo-paq\ 2\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 24px 26px 0px rgba(0, 0, 0, 0.233) inset, 0px -27px 24px 0px rgba(0, 0, 0, 0.178) inset;
+    padding: 7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contato img {
+    width: 45%;
+}
+
+.contato-container {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contato-container form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 10px;
+}
+
+.contato-container form input {
+    height: 34px;
+    border: 1px solid var(--cor-destaque);
+    border-radius: 5px;
+    padding: 1em;
+    color: white;
+    background-color: rgba(11, 40, 66, 0.24);
+}
+
+#mensagem {
+    height: 100px;
+}
+
+.contato-container form button {
+    border: none;
+    margin-top: 2em;
+    background-color: var(--cor-destaque);
+    padding: 1em;
+    border-radius: 5px;
+    font-size: 1em;
+    color: rgb(6, 2, 29);
+    font-weight: bolder;
+    transition: .5s;
+}
+
+.contato-container form button:hover {
+    color: white;
+    background-color: rgb(0, 81, 255);
+    box-shadow: 0px 12px 23px 0px rgba(87, 121, 161, 0.199);
+}
+
