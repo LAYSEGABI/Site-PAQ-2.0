@@ -7,6 +7,7 @@
     align-items: center;
     padding: 5em 7em;
     gap: 10px;
+    justify-content: center;
 }
 
 .equipe hr {
@@ -16,9 +17,10 @@
 
 .equipe-container {
     display: flex;
-    justify-content: space-around;
+    gap: 30px;
     width: 100%;
     margin-top: 4em;
+    justify-content: center;
 }
 
 .equipe-container-item {
@@ -34,6 +36,10 @@
 .ted, .yo {
     position: relative;
     top: -2em;
+}
+.equipe-1, .equipe-2 {
+    display: flex;
+    gap: 30px;
 }
 
 .equipe-container-item a {
@@ -53,4 +59,28 @@
 
 .equipe-container-item a:hover {
     background: rgba(7, 2, 27, 0.452);
+}
+
+
+
+@media (max-width: 1050px) {
+
+    .equipe-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .equipe-container {
+        flex-wrap: wrap;
+    }
+
+    .equipe-container-item {
+        padding: .5em;
+    }
+
+    .equipe-container-item img {
+        width: auto;
+    }
 }
