@@ -72,15 +72,19 @@
 
 @media (max-width: 550px) {
 
+    .equipe {
+        padding: 1.5em;
+    }
+
     .equipe-container {
         flex-wrap: wrap;
     }
 
     .equipe-container-item {
-        padding: .5em;
+        padding: 1em;
     }
 
     .equipe-container-item img {
-        width: auto;
+        width: 100%;
     }
 }

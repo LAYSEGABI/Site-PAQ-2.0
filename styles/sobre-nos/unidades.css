@@ -74,7 +74,7 @@
     }
 
     .unidade-item {
-        margin: 3em;
+        margin: 0 3em;
     }
 }
 
@@ -93,6 +93,10 @@
 
     .unidade-item img {
         display: none;
+    }
+
+    .unidade-item {
+        margin: .5em;
     }
 }
 
