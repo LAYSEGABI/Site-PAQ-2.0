@@ -1,0 +1,17 @@
+.banner {
+    height: 102vh;
+    background: url("../../img/madrinhas/ALANA-XP-105\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -100px;
+    background-position: center;
+    padding-top: 100px;
+    display: flex;
+    align-items: left;
+    padding-left: 5em;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.30);
+}

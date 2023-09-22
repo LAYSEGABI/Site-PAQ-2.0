@@ -1,0 +1,17 @@
+header {
+    background-color: rgba(4, 79, 165, 0.075);
+    box-shadow: 3px 5px 16px 0px rgba(0, 0, 0, 0.219);
+}
+
+.header-redes {
+    opacity: .9;
+}
+
+.header-redes a {
+    transition: .5s;
+}
+
+.header-redes a:hover {
+    transform: scale(.93);
+
+}

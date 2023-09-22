@@ -3,16 +3,19 @@ header {
     box-shadow: 3px 5px 16px 0px rgba(0, 0, 0, 0.219);
 }
 
-.header-redes {
-    opacity: .8;
-
+header nav {
+    gap: 10px;
 }
 
-.header-redes a {
-    transition: .5s;
+@media (max-width: 1080px) {
+    #inicio, #equipe {
+        display: none;
+    }
 }
 
-.header-redes a:hover {
-    transform: scale(.93);
+@media (max-width: 780px) {
 
+    #insta, #unidades {
+        display: none;
+    }
 }

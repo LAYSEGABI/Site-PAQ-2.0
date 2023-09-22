@@ -1,0 +1,33 @@
+.beneficios {
+    margin: 5em 7em;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.beneficios-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+}
+
+.beneficios-container h3 {
+    color: var(--cor-destaque);
+}
+
+.benefi-titulo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1em;
+}
+
+
+.beneficios img {
+    width: 60%;
+}
+
+.benefi-titulo img {
+    width: 2em;
+}
