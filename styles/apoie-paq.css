@@ -131,6 +131,22 @@
         width: 100%;
     }
 
+    .apoie-item img {
+        width: 2em;
+        gap: 5px;
+    }
+
+    .icon-tit {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .apoie-item a{
+        padding: .5em 1em;
+        margin-top: .5em;
+    }
+
 
 }
 
