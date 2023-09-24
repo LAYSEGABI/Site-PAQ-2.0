@@ -51,7 +51,7 @@
 
 @media (max-width: 550px) {
     .frentes {
-        margin: 4em 2em;
+        padding: 4em 2em;
     }
 
     .frentes-item {

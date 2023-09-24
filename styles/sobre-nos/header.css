@@ -3,19 +3,23 @@ header {
     box-shadow: 3px 5px 16px 0px rgba(0, 0, 0, 0.219);
 }
 
-header nav {
-    gap: 10px;
-}
-
 @media (max-width: 1080px) {
-    #inicio, #equipe {
+
+    #inicio,
+    #equipe {
         display: none;
     }
 }
 
 @media (max-width: 780px) {
 
-    #insta, #unidades {
+    #insta,
+    #unidades {
         display: none;
     }
+
+    header nav {
+        gap: 10px;
+    }
+
 }

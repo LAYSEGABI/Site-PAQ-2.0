@@ -24,7 +24,7 @@
 
 .contrato, .acompanhamento, .eve-privados {
     display: flex;
-    align-items: start;
+    align-items: center;
     width: 100%;
     justify-content: space-around;
 }

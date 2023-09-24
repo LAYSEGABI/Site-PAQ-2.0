@@ -53,11 +53,13 @@
 .impactos-img {
     position: absolute;
     left: 0;
+    top: 190px;
 }
 
 .impactos-img-2 {
     position: absolute;
     right: 0;
+    top: 190px;
 }
 
 
