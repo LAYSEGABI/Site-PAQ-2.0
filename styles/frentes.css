@@ -46,16 +46,20 @@
     .frentes-item {
         width: 40%;
         align-items: center;
+    
     }
 }
 
 @media (max-width: 550px) {
     .frentes {
-        padding: 4em 2em;
+        padding: 4em .5em;
+    }
+
+    .frentes-container {
+        gap: 10px;
     }
 
     .frentes-item {
-        width: 40%;
-        align-items: center;
+        gap: 10px;
     }
 }
