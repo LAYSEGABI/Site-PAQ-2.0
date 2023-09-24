@@ -121,10 +121,12 @@
 
     .apoie-container {
         flex-direction: column-reverse;
+        gap: 15px;
     }
 
     .apoie-mobile {
         flex-direction: column;
+        gap: 15px;
     }
 
     .pix {
