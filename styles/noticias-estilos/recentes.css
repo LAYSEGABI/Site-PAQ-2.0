@@ -80,6 +80,7 @@
 .recentes-container-itens-item h4:hover {
     color: white;
 }
+
 .recentes-container-itens-item:hover {
     transform: translate(0, 7px);
     box-shadow: none;
@@ -96,7 +97,12 @@
 
 .saiba-mais img:hover {
     width: 1em;
-    
+
+}
+
+.recentes-container-itens-item div {
+    margin: 1em;
+    margin-top: 0;
 }
 
 .recentes-container-itens-item:hover .saiba-mais img {
@@ -144,6 +150,7 @@
     .recentes-container-item-principal h2 {
         font-size: 1em;
     }
+
     .recentes-container-item-principal p {
         color: rgb(178, 178, 179);
     }
@@ -157,8 +164,16 @@
 
 @media (max-width: 500px) {
 
-    .recentes-container-itens-cont-1 , .recentes-container-itens-cont-2 {
+    .recentes-container-itens-cont-1,
+    .recentes-container-itens-cont-2 {
         gap: 30px;
+    }
+
+
+    .recentes-container-itens-item div {
+        margin: 0;
+        margin-bottom: 1em;
+        margin-left: .4em;
     }
 
     .recentes-container-itens {
@@ -166,7 +181,7 @@
     }
 
     .recentes-container-itens-item h4 {
-        margin: 0;
+        margin: .4em;
         font-size: .8em;
     }
 
@@ -174,4 +189,3 @@
         margin-bottom: 1em;
     }
 }
-
