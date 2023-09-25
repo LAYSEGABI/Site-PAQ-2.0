@@ -1,0 +1,36 @@
+.conteudo {
+    margin: 6% 15%;
+    border: 2px solid var(--cor-destaque);
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 5em;
+}
+
+.conteudo img {
+    width: 100%;
+}
+
+.conteudo-container {
+    display: flex;
+    margin-top: 2em;
+}
+
+.conteudo-container img {
+    width: 50%;
+}
+
+.conteudo-redes {
+    display: flex;
+    gap: 15px;
+}
+
+.conteudo-redes img {
+    width: 2.4em;
+}
+
+.conteudo hr {
+    border: 1px solid var(--cor-destaque);
+    margin: 1em 0;
+}

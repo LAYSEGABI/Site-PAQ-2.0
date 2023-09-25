@@ -1,0 +1,122 @@
+.recentes {
+    margin: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.recentes-container-item-principal {
+    background: url("../../img/03\ 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.30);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 2em;
+    gap: 5px;
+    justify-content: end;
+    text-align: start;
+    transition: .5s;
+}
+
+.recentes-container-item-principal:hover {
+    transform: translate(0, 7px);
+    box-shadow: none;
+}
+
+.recentes-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 3em;
+}
+
+.recentes-container-itens {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 20px;
+}
+
+
+.recentes-container-itens-cont-1,
+.recentes-container-itens-cont-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.recentes-container-itens-item {
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.30);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 5px;
+    justify-content: end;
+    text-align: start;
+    transition: .5s;
+    background-color: rgba(0, 102, 255, 0.027);
+}
+
+.recentes-container-itens-item h4,
+.saiba-mais {
+    margin: 1em;
+    margin-top: .2em;
+}
+
+.saiba-mais {
+    margin-top: -.6em;
+}
+
+.recentes-container-itens-item h4 {
+    color: rgba(240, 248, 255, 0.842);
+    transition: .5s;
+}
+
+.recentes-container-itens-item h4:hover {
+    color: white;
+}
+.recentes-container-itens-item:hover {
+    transform: translate(0, 7px);
+    box-shadow: none;
+    color: white;
+}
+
+.recentes-container-itens-item img {
+    width: 100%;
+}
+
+.saiba-mais img {
+    width: 1em;
+}
+
+.saiba-mais img:hover {
+    width: 1em;
+    
+}
+
+.recentes-container-itens-item:hover .saiba-mais img {
+    animation: float-X 1s infinite ease-in-out;
+}
+
+.recentes-container-item-principal:hover .saiba-mais img {
+    animation: float-X 1s infinite ease-in-out;
+}
+
+@keyframes float-X {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(5px, 0px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
