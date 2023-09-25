@@ -73,3 +73,27 @@
         transform: translate(0, 0);
     }
 }
+
+
+@media (max-width: 990px) {
+
+    .ver-mais {
+        margin: 4em 1em;
+    }
+
+    .ver-mais-container-bloco-1-cont-1, .ver-mais-container-bloco-1-cont-2 {
+        flex-direction: column;
+    }
+
+    .ver-mais-container-bloco-1-item {
+        height: 200px;
+    }
+
+    .ver-mais-container-bloco-1-item h4 {
+        font-size: .9em;
+    }
+
+    .ver-mais-container-bloco-1-item p {
+        display: none;
+    }
+}

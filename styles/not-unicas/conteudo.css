@@ -34,3 +34,11 @@
     border: 1px solid var(--cor-destaque);
     margin: 1em 0;
 }
+
+
+@media (max-width: 990px) {
+    .conteudo {
+        margin: 2em;
+        padding: 2em;
+    }
+}
