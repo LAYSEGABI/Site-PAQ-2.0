@@ -49,3 +49,22 @@
     background-color: rgb(0, 81, 255);
     box-shadow: 0px 12px 23px 0px rgba(87, 121, 161, 0.199);
 }
+
+
+@media (max-width: 500px) {
+    .newsletter {
+        flex-direction: column;
+        margin: 1.3em;
+    }
+
+    .newsletter img {
+        width: 80vw;
+    }
+    
+
+    .email, .botao-newsletter {
+        width: 90%;
+    }
+
+    
+}
