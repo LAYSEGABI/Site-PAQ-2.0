@@ -1,6 +1,22 @@
 header {
-    background-color: rgba(4, 79, 165, 0.075);
+    background: rgb(0, 0, 0);
+    background: url("../../img/madrinhas/Frame\ 108\ \(1\).png");
     box-shadow: 3px 5px 16px 0px rgba(0, 0, 0, 0.219);
+    z-index: 9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.30);
+    width: 100%;
+    position: fixed;
+}
+
+.transformação {
+    text-decoration: none;
+    color: white;
 }
 
 .header-redes {
@@ -13,5 +29,54 @@ header {
 
 .header-redes a:hover {
     transform: scale(.93);
+
+}
+
+.header-doe {
+    animation: float 2s infinite ease-in-out;
+}
+
+
+@keyframes float {
+    0% {
+        transform: translate(0, -7px);
+    }
+
+    50% {
+        transform: translate(0, 7px);
+    }
+
+    100% {
+        transform: translate(0, -7px);
+    }
+}
+
+
+#faca-parte,
+#sobre-nos {
+    display: none;
+}
+
+
+
+@media (max-width: 500px) {
+
+    header {
+        position: absolute;
+        background-color: rgb(2, 14, 27);
+        top: -5px;
+        left: 0;
+        position: fixed;
+    }
+
+
+    .header-doe {
+        animation: none;
+    }
+
+    header h2 {
+        display: none;
+    }
+
 
 }

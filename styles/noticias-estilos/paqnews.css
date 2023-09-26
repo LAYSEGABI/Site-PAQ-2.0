@@ -44,6 +44,18 @@
     transition: .5s;
 }
 
+.paq-nic {
+    background: url("../../img/not-unicas/PAQNIC\ 4-24\ 1.png");
+}
+
+.pad-papo {
+    background: url("../../img/not-unicas/1689697125497\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter:  brightness(10%);
+}
+
 .paqnews-container-bloco-1-item:hover {
     transform: translate(0, 7px);
     box-shadow: none;

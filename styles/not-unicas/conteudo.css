@@ -8,17 +8,24 @@
     padding: 5em;
 }
 
+.conteudo p {
+    color: rgb(202, 202, 202);
+}
+
 .conteudo img {
     width: 100%;
+    border-radius: 10px;
 }
 
 .conteudo-container {
     display: flex;
     margin-top: 2em;
+    gap: 30px;
 }
 
 .conteudo-container img {
     width: 50%;
+    border-radius: 10px;
 }
 
 .conteudo-redes {
@@ -28,6 +35,17 @@
 
 .conteudo-redes img {
     width: 2.4em;
+}
+
+
+.conteudo-redes a {
+    transition: .5s;
+    opacity: .9;
+}
+
+.conteudo-redes a:hover {
+    transform: scale(.9);
+    opacity: 1;
 }
 
 .conteudo hr {
