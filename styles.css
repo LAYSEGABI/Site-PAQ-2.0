@@ -39,6 +39,7 @@ body {
     background-color: #04030C;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 /* Scrollbar personalizada */
