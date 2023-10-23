@@ -128,10 +128,12 @@
 
     .container-itens {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .faca-parte-item {
-        width: 100%;
+        width: 90%;
         gap: 9px;
         align-items: center;
     }
