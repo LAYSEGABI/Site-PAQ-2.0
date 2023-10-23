@@ -95,6 +95,7 @@ h1 span {
 
     .banner {
         padding: 6em 1em;
+        height: 80vh;
     }
 
     .banner h1 {
