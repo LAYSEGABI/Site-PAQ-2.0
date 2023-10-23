@@ -12,6 +12,7 @@
 @import url('styles/frentes.css');
 @import url('styles/faca-parte.css');
 @import url('styles/foco.css');
+@import url('styles/perg-ferquentes.css');
 @import url('styles/contato.css');
 @import url('styles/footer.css');
 
@@ -79,4 +80,5 @@ body::-webkit-scrollbar-thumb {
     opacity: 1;
     transform: translate3d(0,0,0);
 }
+
 

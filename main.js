@@ -1,4 +1,3 @@
-
 //Animacao de entrada e saida de conteudo ao rolar a página
 const elementos = document.querySelectorAll('[data-anima]');
 const animacaoClass = 'animacao';
@@ -19,3 +18,21 @@ if(elementos.length){
     animaScroll()
   })
 }
+
+
+const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
+
+accordionItemHeaders.forEach(accordionItemHeader => {
+  accordionItemHeader.addEventListener("click", event => {
+
+    accordionItemHeader.classList.toggle("active");
+    const accordionItemBody = accordionItemHeader.nextElementSibling;
+    if(accordionItemHeader.classList.contains("active")) {
+      accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
+    }
+    else {
+      accordionItemBody.style.maxHeight = 0;
+    }
+    
+  });
+});
