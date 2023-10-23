@@ -52,6 +52,30 @@
     box-shadow: 0px 18px 39px 0px rgba(87, 121, 161, 0.377);
 }
 
+.comunidade-apoie {
+    transition: .5s;
+}
+
+.comunidade-apoie:hover {
+    animation: float 2s infinite ease-in-out;
+
+}
+
+@keyframes float {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 5px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+
 @media (max-width: 1000px) {
 
     .comunidade-aprendizagem-container {
