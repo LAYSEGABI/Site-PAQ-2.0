@@ -113,6 +113,7 @@
 @media (max-width: 500px) {
 
     .foco-container {
+        overflow: hidden;
         margin: 4em 2em;
         align-items: center;
         justify-content: center;
