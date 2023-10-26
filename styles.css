@@ -83,7 +83,6 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 500px) {
     body {
-        width: 100%;
         overflow-x: hidden;
     }
 }
