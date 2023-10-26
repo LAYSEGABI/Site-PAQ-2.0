@@ -39,6 +39,7 @@ body {
     background-color: #04030C;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 /* Scrollbar personalizada */
@@ -56,7 +57,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 5px;
 }
 
-/* Animaçoes de entrada e saida de conteudo */
+/* Animaçoes de entrada e saida de conteudo 
 
 [data-anima] {
     opacity: 0;
@@ -80,9 +81,4 @@ body::-webkit-scrollbar-thumb {
     transform: translate3d(0,0,0);
 }
 
-
-@media (max-width: 500px) {
-    body {
-        overflow-x: hidden;
-    }
-}
+*/
