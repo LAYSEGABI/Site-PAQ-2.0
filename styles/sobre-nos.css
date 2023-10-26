@@ -114,7 +114,7 @@
 @media (max-width: 600px) {
 
     .sobre-nos {
-        margin: 3em;
+        margin: 3em 1em;
         padding: 2.3em 1em;
     }
 
@@ -127,6 +127,7 @@
         width: 60%;
     }
 }
+
 
 @media (max-width: 380px) {
     .sobre-nos {
