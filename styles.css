@@ -25,7 +25,7 @@
 :root {
     --cor-destaque: #0e91e8;
     --preto-padrao: #04030C;
-    --linear-azul-ciano: linear-gradient(270deg, #07B5EC 54.64%, rgba(32, 148, 255, 0.98) 102.58%);
+    --linear-azul-ciano: linear-gradient(270deg, #07beec 30.50%, rgba(30, 133, 230, 0.98) 102.58%);
 }
 
 html {
