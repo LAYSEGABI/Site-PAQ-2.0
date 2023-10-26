@@ -1,0 +1,100 @@
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-90%);
+    }
+}
+
+.galeria {
+    margin: 7em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
+.galeria-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.galeria-texto hr {
+    width: 60px;
+    margin-top: 10px;
+    border: 1px solid var(--cor-destaque);
+}
+
+.galeria-item {
+    overflow: hidden;
+    background: rgba(15, 186, 238, 0.103);
+    display: flex;
+    white-space: nowrap;
+    position: relative;
+    box-shadow: 8px 9px 20px 0px rgba(0, 0, 0, 0.20);
+    
+}
+
+.galeria-item:before,
+.galeria-item:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.galeria-item:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.185), rgb(4, 13, 39));
+}
+
+.galeria-item:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(221, 8, 8, 0), rgb(4, 8, 46));
+}
+
+.galeria-item:hover .galeria-item-slide {
+    animation-play-state: paused;
+}
+
+.galeria-item-slide {
+    display: flex;
+    animation: 40s slide infinite linear;
+}
+
+.galeria-item-slide div {
+    background: var(--linear-apoiadoress, linear-gradient(137deg, rgba(11, 93, 245, 0.568) 1.98%, rgba(9, 207, 207, 0.85) 77.68%));
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.50);;
+    padding: .3em;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 15px;
+}
+
+.galeria-item-slide img {
+    width: auto;
+}
+
+
+
+@media (max-width: 450px) {
+    .galeria-item-slide img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 330px) {
+    .galeria-item-slide img {
+        width: 250px;
+    }
+}
