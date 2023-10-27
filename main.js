@@ -20,6 +20,8 @@ if (elementos.length) {
 }
 
 
+
+
 // Acordeon - perguntas frequentes
 const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
 
@@ -150,4 +152,28 @@ function loadProducts() {
 
     itensDiv.appendChild(itemInfo);
   });
+}
+
+
+//botao de voltar ao topo
+const backToTopButton = document.querySelector('.back-to-top')
+
+const backToTop = () => {
+  if (window.scrollY >= 100) {
+    backToTopButton.classList.add('show')
+
+  } else {
+    backToTopButton.classList.remove('show')
+  }
+}
+
+window.addEventListener('scroll', function () {
+  backToTop()
+})
+
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  })
 }

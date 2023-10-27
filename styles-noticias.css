@@ -1,5 +1,5 @@
 @import url("styles/noticias-estilos/header.css");
-@import url("styles/noticias-estilos/recentes.css");
+@import url("styles/noticias-estilos/carrousel.css");
 @import url("styles/noticias-estilos/paqnews.css");
 @import url("styles/noticias-estilos/newsletter.css");
 
@@ -12,3 +12,5 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
