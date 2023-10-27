@@ -76,6 +76,10 @@ body::-webkit-scrollbar-thumb {
     transform: translate3d(0, 50px, 0);
 }
 
+[data-anima="cima"] {
+    transform: translate3d(0, -50px, 0);
+}
+
 [data-anima].animacao {
     opacity: 1;
     transform: translate3d(0,0,0);
