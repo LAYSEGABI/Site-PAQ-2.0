@@ -65,11 +65,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 [data-anima="esquerda"] {
-    transform: translate3d(20px, 0, 0);
+    transform: translate3d(15px, 0, 0);
 }
 
 [data-anima="direita"] {
-    transform: translate3d(20px, 0, 0);
+    transform: translate3d(15px, 0, 0);
 }
 
 [data-anima="centro"] {

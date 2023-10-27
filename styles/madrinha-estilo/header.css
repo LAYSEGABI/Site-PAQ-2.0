@@ -14,6 +14,7 @@ header {
     position: fixed;
 }
 
+
 .transformação {
     text-decoration: none;
     color: white;
@@ -39,15 +40,15 @@ header {
 
 @keyframes float {
     0% {
-        transform: translate(0, -7px);
+        transform: translate(0, -5px);
     }
 
     50% {
-        transform: translate(0, 7px);
+        transform: translate(0, 5px);
     }
 
     100% {
-        transform: translate(0, -7px);
+        transform: translate(0, -5px);
     }
 }
 
@@ -62,18 +63,15 @@ header {
 @media (max-width: 500px) {
 
     header {
-        position: absolute;
         background-color: rgb(2, 14, 27);
-        top: -5px;
-        left: 0;
+        align-items: center;
+        gap: 10px;
         position: fixed;
+        justify-content: center;
+        
     }
 
-
-    .header-doe {
-        animation: none;
-    }
-
+  
     header h2 {
         display: none;
     }

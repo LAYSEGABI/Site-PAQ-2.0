@@ -3,6 +3,10 @@ header {
     box-shadow: 3px 5px 16px 0px rgba(0, 0, 0, 0.219);
 }
 
+header nav {
+    gap: 60px;
+}
+
 @media (max-width: 1080px) {
 
     #inicio,
